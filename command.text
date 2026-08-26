@@ -1,0 +1,11 @@
+docker -v
+docker ps
+docker ps --all
+docker run "NAME"
+docker images
+docker run busybox ls
+docker run busybox ping "WEB"
+docker stop "ID"
+docker rm "ID"
+docker run nginx
+docker run -p 80:80 nginx
